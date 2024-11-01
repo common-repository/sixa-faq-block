@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'type' => 'wordpress-block',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => 'c65cb420fec9dfffd745a457ae5488be6e8b2dd7',
+        'name' => 'sixach/wp-block-faq',
+        'dev' => false,
+    ),
+    'versions' => array(
+        'sixach/wp-block-api' => array(
+            'pretty_version' => 'v1.0.3',
+            'version' => '1.0.3.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../sixach/wp-block-api',
+            'aliases' => array(),
+            'reference' => '64e527a5993146774275d0ec7d438da93bc46381',
+            'dev_requirement' => false,
+        ),
+        'sixach/wp-block-faq' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'type' => 'wordpress-block',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => 'c65cb420fec9dfffd745a457ae5488be6e8b2dd7',
+            'dev_requirement' => false,
+        ),
+        'sixach/wp-snippets' => array(
+            'pretty_version' => 'v1.7.2',
+            'version' => '1.7.2.0',
+            'type' => 'wordpress-plugin',
+            'install_path' => __DIR__ . '/../sixach/wp-snippets',
+            'aliases' => array(),
+            'reference' => 'd703873d0591ab4b06541b5ab87edf0a7e162396',
+            'dev_requirement' => false,
+        ),
+    ),
+);
